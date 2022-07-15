@@ -1,0 +1,8 @@
+version: "2"
+
+services:
+  searcher-ninja-public-website:
+    build: .
+    restart: unless-stopped
+    container_name: "searcher-ninja-public-website"
+    network_mode: "host"
