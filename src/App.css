@@ -1,9 +1,8 @@
 .App {
   text-align: center;
-  height:100vh;
-  background-image: url("../public/bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #fefff5;
+  background-image: url("../public/backgrounds/rice.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 
   /* Blur background */
   background-blend-mode: multiply;
@@ -11,6 +10,7 @@
 
 .container {
   display:flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 
@@ -19,4 +19,13 @@
 
 .wrapper {
   width:80vw;
+  margin-bottom:3em;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.red {
+  color:red;
 }

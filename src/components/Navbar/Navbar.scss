@@ -20,10 +20,10 @@ $NavbarMargin: 7%;
   &__items {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-end;
 
     height: 100%;
-    width: 725px;
+    width: 40%;
 
     margin-right: $NavbarMargin;
     margin-top: 20px;
@@ -31,8 +31,13 @@ $NavbarMargin: 7%;
     padding-top:0;
     padding-bottom:0;
 
-    background-image: url("../../../public/paper_menu.png");
+    background-image: url("../../../public/menu.png");
     background-repeat: no-repeat;
+
+    // align background to right
+    background-position: right;
+    background-size: contain;
+
   }
 
   &__item {
@@ -42,7 +47,7 @@ $NavbarMargin: 7%;
     justify-content: center;
     height: 100%;
     padding: 0 20px;
-    font-size: 2.25em;
+    font-size: 2em;
     cursor: pointer;
     font-weight: 600;
     letter-spacing: 0.04em;
@@ -58,5 +63,20 @@ $NavbarMargin: 7%;
         background-color: none;
       }
     }
+  }
+}
+
+.sticky-navbar {
+  position: fixed;
+  top: 10px;
+  left: -10px;
+  width: 100%;
+  z-index: 1;
+  height: 2em;
+  display: flex;
+  justify-content: flex-end;
+
+  & img {
+    height:4em;
   }
 }

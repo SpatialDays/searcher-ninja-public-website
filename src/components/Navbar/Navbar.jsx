@@ -1,28 +1,32 @@
-import './Navbar.scss'
+import "./Navbar.scss";
 
 const Navbar = () => {
+  return (
+    <>
+      <div className="navbar">
+        <div className="navbar__logo">
+          <img src="./logos/logo.png" />
+        </div>
+        <div className="navbar__items">
+          <div className="navbar__item">
+            <a href="#features">Features</a>
+          </div>
+          <div className="navbar__item">
+            <a href="#pricing">Pricing</a>
+          </div>
+          <div className="navbar__item">
+            <a href="#about">About</a>
+          </div>
+        </div>
+      </div>
 
-    return (
-        <>
-            <div className="navbar">
-                <div className="navbar__logo">
-                    <img src="./Logo.png"/>
-                </div>
-                <div className="navbar__items">
-                    <div className="navbar__item">
-                        <a href="#">Pricing</a>
-                    </div>
-                    <div className="navbar__item">
-                        <a href="#">Dojo</a>
-                    </div>
-                    <div className="navbar__item">
-                        <a href="#">About</a>
-                    </div>
-                </div>
-            </div> 
-        </>
-    )
-}
-
+      <div className="sticky-navbar">
+        <div className="sticky-navbar__logo">
+          <img src="./logos/rapdi.png" />
+        </div>
+      </div>
+    </>
+  );
+};
 
 export default Navbar;

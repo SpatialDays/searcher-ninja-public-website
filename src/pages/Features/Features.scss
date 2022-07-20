@@ -1,0 +1,56 @@
+.features {
+  width: 100%;
+  background-color: white;
+  height: 100%;
+
+  background-color: #db4c37;
+  background-image: url("../../../public/backgrounds/shattered-dark.png");
+
+  display: flex;
+  justify-content: center;
+
+  margin-bottom:1em;
+}
+
+.features__container {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  flex-wrap: wrap;
+}
+.feature {
+  background-color: white;
+  width: 20%;
+  margin: 3em;
+  border-radius: 10px;
+  padding:1em;
+
+  // border radius at top
+  border-top-left-radius: 90px;
+  border-top-right-radius: 10px;
+
+  // drop shadow
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+
+
+  &__icon {
+    width:100%;
+
+    & img {
+      width: 30%;
+    }
+
+  }
+
+  &__title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1em;
+  }
+
+  &__description {
+    text-align: center;
+    margin-top: 1em;
+  }
+}

@@ -11,11 +11,9 @@ const App = () => {
       <Navbar />
 
       <div className="container">
-        <div className="wrapper">
           <Routes>
             <Route path="/" element={<Home />} />
           </Routes>
-        </div>
       </div>
     </div>
   );
