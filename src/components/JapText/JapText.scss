@@ -1,0 +1,36 @@
+.japtext-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+
+  @media screen and (max-width: 1000px) {
+    font-size:65px!important;
+  }
+}
+
+.japtext {
+  /* display in background */
+  position: absolute;
+  color: rgba(89, 89, 89, 0.272);
+
+
+}
+
+.top-to-bottom {
+  /* make text go downwards */
+  width: 50px;
+  letter-spacing: 0.1em;
+  line-height: 1em;
+
+}
+
+.left-to-right {
+  /* make text go to the right */
+  text-align: right;
+  display:flex;
+  margin-bottom:1em;
+  opacity: 0.5;
+}

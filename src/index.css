@@ -1,11 +1,60 @@
 @font-face {
-    font-family: Katanf;
-    src: url('../public/Katanf.ttf') format('truetype');
+  font-family: Katanf;
+  src: url("../public/fonts/Katanf.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Katanf-Italic;
+  src: url("../public/fonts/Katanfi.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Bleak-Chop;
+  src: url("../public/fonts/Bleak Chop.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Bankai;
+  src: url("../public/fonts/Bankai.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Hashiba;
+  src: url("../public/fonts/Hashiba.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Renogare-Regular;
+  src: url("../public/fonts/Renogare-Regular.otf") format("truetype");
 }
 
 body {
-    margin: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-family: Katanf;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Katanf;
+}
+
+p {
+  font-family: Bleak-Chop;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.clear-font {
+  font-family: Renogare-Regular;
+  line-height: 1.5em;
+  font-size: 0.85em;
+}
+
+.cool-font {
+  /* Text color gradient from red to orange */
+  background: -webkit-linear-gradient(red, rgb(255, 106, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Text color gradient from red to orange left to right */
 }

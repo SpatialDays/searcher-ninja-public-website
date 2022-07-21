@@ -1,0 +1,36 @@
+.container-paper {
+
+  // height:600px;
+  width: 100%;
+  height: 35em;
+  display: flex;
+
+  @media screen and (max-width: 1350px) {
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+}
+
+.home-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.paper-background {
+  background-image: url("../../../public/test.png");
+  background-repeat: no-repeat;
+  // fit contain
+  background-size: inherit;
+}
+
+.ninja-landing {
+  display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    height: 100%;
+    z-index: 9999;
+}

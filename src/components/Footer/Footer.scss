@@ -1,0 +1,121 @@
+// breakpoint variable
+$breakpoint: 1350px;
+
+.footer {
+  margin-top: 2em;
+  background-image: url("../../../public/backgrounds/footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__logo {
+    width: 33%;
+    display: flex;
+    margin-left: 2em;
+
+    & img {
+      height: 100%;
+      width: 50%;
+    }
+  }
+
+  &__creds {
+    width: 33%;
+    margin-right: 2em;
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+
+    &:first-child {
+      margin-bottom: 1em;
+    }
+
+    & a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  &__docs {
+    width: 33%;
+    display: flex;
+    color: white;
+    font-size: 1em;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    align-items: center;
+
+    & a {
+      color: white;
+      text-decoration: none;
+      margin-bottom: 1.5em;
+    }
+  }
+
+  &__doc {
+    margin-right: 2em;
+    border: 0.5px solid #e6e6e6;
+    border-radius: 15px;
+    padding: 0.5em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-bottom: 2em;
+
+    &:hover {
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      background-color: #f5f5f5;
+      color: black;
+      cursor: pointer;
+    }
+  }
+
+  @media screen and (max-width: $breakpoint) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    &__docs {
+      width: 100%;
+      justify-content: center;
+      margin: 0;
+    }
+
+    &__doc {
+      margin: 1em;
+    }
+
+    &__creds {
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      margin-bottom: 1em;
+    }
+
+    &__logo {
+      margin: 0;
+      width: 100%;
+      margin-bottom: 1em;
+      justify-content: center;
+    }
+  }
+}
+
+.spatial-days {
+  &:hover {
+    color: blue;
+    stroke: rgba(0, 0, 0, 0.1);
+    text-shadow: #e6e6e6;
+  }
+}
