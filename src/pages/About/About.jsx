@@ -11,7 +11,7 @@ const About = () => {
         <div className="wrapper">
           <div className="container-about">
             <div className="about__top">
-              <JapText text="About" fontSize="70px" />
+              <JapText text="About Our API" fontSize="70px" />
             </div>
 
             <div className="about__bottom">
@@ -51,15 +51,15 @@ const About = () => {
                 <i>
                   “If you're entering anything where there's an existing
                   marketplace, against large, entrenched competitors, then your
-                  product or service needs to be much betterthan theirs. It
+                  product or service needs to be much better than theirs. It
                   can't be a little bit better, because then you put yourself in
                   the shoes of the consumer... you're always going to buy the
                   trusted brand unless there's a big difference.
                 </i>
-                ”-Elon Musk
+                ” - Elon Musk
                 <br />
                 <br />
-                For SearcherNinja API Support, please contact {' '}
+                For Searcher Ninja API support, please contact {' '}
                 <a className="cool-font " href="mailto:support@rapidapi.com">
                   support@rapidapi.com
                 </a>{" "}

@@ -6,7 +6,7 @@ const Pricing = () => {
   const pricePlans = [
     {
       title: "Basic",
-      description: "Get started with our basic plan.",
+      description: "Get started with our Basic plan",
       icon: "basic",
       price: "Free",
       features: ["Limited to 100 requests per month", "Free"],
@@ -14,7 +14,7 @@ const Pricing = () => {
     },
     {
       title: "Pro",
-      description: "Get started with our pro plan.",
+      description: "Move to our Pro plan",
       icon: "pro",
       price: "Free",
       features: ["< 5000 requests per month", "$ 39.99 / month"],
@@ -22,7 +22,7 @@ const Pricing = () => {
     },
     {
       title: "Ultra",
-      description: "Get started with our ultra plan.",
+      description: "Move to our Ultra plan",
       icon: "ultra",
       price: "Free",
       features: ["< 15 000 requests per month", "$ 99.99 / month"],
@@ -31,7 +31,7 @@ const Pricing = () => {
 
     {
       title: "Mega",
-      description: "Get started with our enterprise plan.",
+      description: "Move to our Mega plan",
       icon: "enterprise",
       price: "Free",
       features: ["< 50 000 requests per month", "$ 249.99 / month"],
@@ -78,7 +78,7 @@ const Pricing = () => {
             })}
           </div>
           <div className="prices__footer">
-            <p className="clear-font">If your needs exceed those of our Mega plan, contact us for <span className="cool-font">Enterprise</span> pricing...<br/>at rates of less than $ 0.005 per request</p>
+            <p className="clear-font">If your needs exceed those of our Mega plan, contact us for <span className="cool-font">Enterprise</span> pricing<br/> ( at rates of less than $ 0.005 per request )</p>
           </div>
         </div>
       </div>
