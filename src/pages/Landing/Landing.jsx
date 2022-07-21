@@ -5,11 +5,11 @@ import "./Landing.scss";
 
 const Home = () => {
   return (
-    <div className="wrapper">
+    <div className="wrapper paper-background">
       <div className="container-paper">
-        <div className="ninja-container">
+        <div className="ninja-container ninja-landing">
           <SearchBox />
-          <Ninja type="magnifying_glass" size="large" />
+          <Ninja type="magnifying_glass_crop" size="large" />
         </div>
 
         <div className="home-container">

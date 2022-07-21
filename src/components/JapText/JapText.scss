@@ -5,12 +5,18 @@
   align-items: center;
   height: 100%;
   width: 100%;
+
+  @media screen and (max-width: 1000px) {
+    font-size:65px!important;
+  }
 }
 
 .japtext {
   /* display in background */
   position: absolute;
   color: rgba(89, 89, 89, 0.272);
+
+
 }
 
 .top-to-bottom {
@@ -18,6 +24,7 @@
   width: 50px;
   letter-spacing: 0.1em;
   line-height: 1em;
+
 }
 
 .left-to-right {

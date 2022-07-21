@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
 
-  margin-bottom:1em;
+  margin-bottom: 1em;
 }
 
 .features__container {
@@ -17,29 +17,36 @@
   justify-content: center;
   width: 70%;
   flex-wrap: wrap;
+
+  @media screen and (max-width: 1350px) {
+    width:100%;
+  }
 }
 .feature {
   background-color: white;
   width: 20%;
   margin: 3em;
   border-radius: 10px;
-  padding:1em;
+  padding: 1em;
 
   // border radius at top
   border-top-left-radius: 90px;
   border-top-right-radius: 10px;
 
   // drop shadow
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 
+  @media screen and (max-width: 768px) {
+    width: 70%;
+    margin: 1em;
+  }
 
   &__icon {
-    width:100%;
+    width: 100%;
 
     & img {
       width: 30%;
     }
-
   }
 
   &__title {

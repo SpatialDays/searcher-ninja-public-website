@@ -7,6 +7,15 @@
   width: 100%;
   display: flex;
   align-items: center;
+
+  @media screen and (max-width: 1600px) {
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    min-height: 100%;
+    margin-top:2em;
+    padding-bottom:2em;
+  }
 }
 
 .pricing-container {
@@ -28,6 +37,10 @@
   justify-content: flex-end;
   align-items: center;
 
+  @media screen and (max-width: 1600px) {
+    justify-content: center;
+  }
+
   &__footer {
     width: 100%;
     text-align: right;
@@ -37,6 +50,7 @@
 
 .price {
   display: flex;
+  cursor:pointer;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -82,5 +96,9 @@
   &__feature {
     border-top: 1px solid #e6e6e6;
     width: 100%;
+  }
+
+  &__description {
+    margin-bottom:1em;
   }
 }

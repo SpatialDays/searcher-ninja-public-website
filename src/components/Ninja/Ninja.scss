@@ -3,6 +3,7 @@
   align-items:flex-start;
   flex-direction: column;
   height:100%;
+  z-index:9999;
 }
 
 .ninja {
@@ -23,7 +24,11 @@
   }
 
   &__large {
-    height:30em!important;
+    height:27em!important;
+
+    @media screen and (max-width: 1350px) {
+      height:20em!important;
+    }
   }
 
 }

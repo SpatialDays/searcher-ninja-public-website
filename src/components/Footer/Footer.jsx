@@ -7,7 +7,6 @@ const Footer = () => {
   // Cool animation on footer
   const handleMouseEnter = (e) => {
     // TODO: Do something cool!
-    
   };
 
   return (
@@ -21,9 +20,14 @@ const Footer = () => {
         <img src="./logos/logowhite.png" />
       </div>
       <div className="footer__docs clear-font">
-        <span className="footer__doc">Terms of Use </span>
-        <span className="footer__doc">Who we are</span>
-        <span className="footer__doc">Privacy Policy</span>
+        <a href="./docs/Terms_of_Use.pdf">
+          <span className="footer__doc">Terms of Use </span>
+        </a>
+
+
+        <a href="./docs/Privacy_Policy.pdf">
+          <span className="footer__doc">Privacy Policy</span>
+        </a>
       </div>
       <div className="footer__creds">
         <a href="https://spatialdays.com/" className="spatial-days">

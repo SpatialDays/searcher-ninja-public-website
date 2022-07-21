@@ -16,35 +16,57 @@ const About = () => {
 
             <div className="about__bottom">
               <p className="clear-font">
-                <span className="cool-font ">Searcher Ninja</span> is a brand name created by Spatial Days Ltd, a
-                mapping, consulting and software development company, registered
-                in England and Wales with Company Number 07376182.
+                <span className=" ">Searcher Ninja</span> is a brand
+                name created by{" "}
+                <a target="_blank" className="cool-font " href="https://spatialdays.com">
+                  Spatial Days Ltd
+                </a>
+                , a mapping, consulting and software development company,
+                registered in England and Wales with Company Number 07376182.
                 <br />
                 <br />
-                Searcher Ninja came about as a result of a need identified on
-                one of our projects for a search engine scraper that could
-                simultaneously scrape multiple different search engines, collate
-                the results and return them in simple JSON format with
-                fastresponse times.
+                We needed a search engine scraper for one of our projects that
+                could simultaneously scrape multiple different search engines,
+                collate the results and return them in simple JSON format with
+                fast response times.
                 <br />
-                <br />A number of search engine scraper services were assessed
-                but they fell short, either in terms of functionality (only
-                scraping one search engine, for example), response times(many of
-                the advertised latency figures are clearly fictional) or cost
-                (someof the services we deemed to be expensive).
+                <br />
+                Many search engine scraper services were assessed but they all
+                fell short, either in terms of functionality (e.g. only scraping
+                one search engine), response times (advertised latency figures
+                are clearly fictional) or cost (some services were deemed to be
+                expensive).
                 <br />
                 <br />
                 So, we developed Searcher Ninja internally and used it ourselves
-                before deciding to make it widely available to help others
-                through RapidAPI. <br /><br/>
-                Our design philosophy was: “If you're entering anything where
-                there'san existing marketplace, against large, entrenched
-                competitors, then your product or service needs to be much
-                betterthan theirs. It can't be a little bit better, because then
-                you put yourself in the shoes of the consumer... you're always
-                going to buy the trusted brand unless there's a big
-                difference.”-Elon Musk
-
+                before deciding to make it widely available through{" "}
+                <a target="_blank" className="cool-font " href="http://service.searcher.ninja">
+                  RapidAPI
+                </a>
+                .
+                <br />
+                <br />
+                Our design philosophy was:
+                <br />
+                <i>
+                  “If you're entering anything where there's an existing
+                  marketplace, against large, entrenched competitors, then your
+                  product or service needs to be much betterthan theirs. It
+                  can't be a little bit better, because then you put yourself in
+                  the shoes of the consumer... you're always going to buy the
+                  trusted brand unless there's a big difference.
+                </i>
+                ”-Elon Musk
+                <br />
+                <br />
+                For SearcherNinja API Support, please contact {' '}
+                <a className="cool-font " href="mailto:support@rapidapi.com">
+                  support@rapidapi.com
+                </a>{" "}
+                first, and failing that, contact us at {' '}
+                <a className="cool-font " href="mailto:support@spatialdays.com">
+                  support@spatialdays.com
+                </a>
               </p>
             </div>
           </div>

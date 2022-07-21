@@ -39,6 +39,11 @@ p {
   font-family: Bleak-Chop;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 .clear-font {
   font-family: Renogare-Regular;
   line-height: 1.5em;
@@ -47,7 +52,7 @@ p {
 
 .cool-font {
   /* Text color gradient from red to orange */
-  background: -webkit-linear-gradient(red, orange);
+  background: -webkit-linear-gradient(red, rgb(255, 106, 0));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 

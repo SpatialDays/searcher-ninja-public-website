@@ -52,7 +52,11 @@ const Pricing = () => {
           <div className="prices">
             {pricePlans.map((plan, index) => {
               return (
-                <div key={index} className="price">
+                <div key={index} className="price" onClick={
+                  () => {
+                    window.open("http://pricing.searcher.ninja", "_blank");
+                  }
+                }>
                   <div className="price__avatar">
                     <img src={`/ninjas/${plan.avatar}.png`} alt="" />
                   </div>
@@ -60,7 +64,6 @@ const Pricing = () => {
                   <div className="price__description clear-font">
                     {plan.description}
                   </div>
-                  <div className="price__price clear-font">{plan.price}</div>
                   <div className="price__features">
                     {plan.features.map((feature, index) => {
                       return (

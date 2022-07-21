@@ -29,6 +29,13 @@ const Features = () => {
         "We use JSON requests to make sure that our services are always up and running.",
       icon: "laptop",
     },
+    {
+      title: "Multiple Browsers",
+      description:
+        "We support multiple browsers and devices to make sure that our services are always up and running.",
+      icon: "layout",
+      
+    }
   ];
 
   return (

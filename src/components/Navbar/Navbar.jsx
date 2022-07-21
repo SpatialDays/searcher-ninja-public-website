@@ -22,7 +22,14 @@ const Navbar = () => {
 
       <div className="sticky-navbar">
         <div className="sticky-navbar__logo">
-          <img src="./logos/rapdi.png" />
+          <img
+            src="./logos/rapdi.png"
+            onClick={
+              () => {
+                window.open("http://service.searcher.ninja", "_blank");
+              }
+            }
+          />
         </div>
       </div>
     </>
