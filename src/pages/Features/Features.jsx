@@ -4,38 +4,40 @@ const Features = () => {
   const features = [
     {
       title: "Global Coverage",
-      description: "We cover all of the worlds languages and cultures.",
+      description:
+        "We do search engine scraping across the whole world wide web",
       icon: "globe",
     },
     {
       title: "Search Endpoint",
-      description: "Search for any word in any language.",
+      description:
+        "A general search across multiple search engines using a user-provided query",
       icon: "search",
     },
     {
       title: "Places Endpoint",
-      description: "Search for any place in any language.",
+      description:
+        "A location-based search across multiple search engines using a user-provided query",
       icon: "home",
     },
     {
-      title: "Proxy Network",
+      title: "Multiple Search Engines",
       description:
-        "We use a proxy network to make sure that our services are always up and running.",
-      icon: "server",
+        "We scrape all search engines that are in common use and we collate the results",
+      icon: "layout",
     },
     {
       title: "JSON Requests",
       description:
-        "We use JSON requests to make sure that our services are always up and running.",
+        "All search results are returned in JSON format for ease-of-use",
       icon: "laptop",
     },
     {
-      title: "Multiple Browsers",
+      title: "Proxy Network",
       description:
-        "We support multiple browsers and devices to make sure that our services are always up and running.",
-      icon: "layout",
-      
-    }
+        "All searches are launched through many unique proxy addresses",
+      icon: "server",
+    },
   ];
 
   return (
@@ -48,7 +50,9 @@ const Features = () => {
                 <img src={`/icons/${feature.icon}.png`} alt={feature.title} />
               </div>
               <div className="feature__title">{feature.title}</div>
-              <div className="feature__description clear-font">{feature.description}</div>
+              <div className="feature__description clear-font">
+                {feature.description}
+              </div>
             </div>
           );
         })}
