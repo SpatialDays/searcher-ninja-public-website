@@ -3,7 +3,7 @@ WORKDIR /usr/src/app
 RUN apt-get update -y
 RUN apt-get upgrade -y
 COPY . .
-RUN npm install
+RUN npm install .
 RUN npm install serve
 RUN npm install -g serve
 #RUN npm install -location global pkg
