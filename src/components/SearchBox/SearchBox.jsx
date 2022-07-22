@@ -14,7 +14,7 @@ const SearchBox = () => {
 
       <div className="search-box__button">
         <button>
-          <img src="./icons/search.png" />
+          <img alt="search icon" src="./icons/search.png" />
         </button>
       </div>
     </div>

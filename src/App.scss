@@ -1,3 +1,10 @@
+h2 {
+  font-size: 1em;
+  display:contents;
+  font-weight:400;
+}
+
+
 .App {
   text-align: center;
   background-color: #fefff5;
@@ -29,4 +36,23 @@
 
 .red {
   color:red;
+}
+
+.clear-font {
+  font-family: Renogare-Regular;
+  line-height: 1.5em;
+  font-size: 0.85em;
+}
+
+.cool-font {
+  background: -webkit-linear-gradient(red, rgb(255, 106, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  &:hover {
+    background: -webkit-linear-gradient(rgb(33, 15, 107), rgb(9, 118, 140));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+  }
 }

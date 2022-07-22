@@ -1,17 +1,16 @@
 .ninja-container {
-  display:flex;
-  align-items:flex-start;
+  display: flex;
+  align-items: flex-start;
   flex-direction: column;
-  height:100%;
-  z-index:9999;
+  height: 100%;
+  z-index: 9999;
 }
 
 .ninja {
   display: flex;
-  
 
   & img {
-    height:25em;
+    height: 25em;
     object-fit: contain;
 
     // cool animation
@@ -20,17 +19,21 @@
   }
 
   &__small {
-    height:15em!important;
-  }
+    height: 15em !important;
 
-  &__large {
-    height:27em!important;
-
-    @media screen and (max-width: 1350px) {
-      height:20em!important;
+    @media screen and (max-width: 450px) {
+      height: 10em !important;
+      margin-top:1.5em;
     }
   }
 
+  &__large {
+    height: 27em !important;
+
+    @media screen and (max-width: 1350px) {
+      height: 20em !important;
+    }
+  }
 }
 
 @keyframes comeUp {

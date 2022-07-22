@@ -34,6 +34,11 @@ $NavbarMargin: 7%;
         width: 100%;
       }
     }
+
+    @media screen and (max-width: 450px) {
+      margin:2em;
+      margin-bottom: 0;
+    }
   }
 
   &__items {
@@ -42,7 +47,7 @@ $NavbarMargin: 7%;
     justify-content: flex-end;
 
     height: 100%;
-    width: 40%;
+    width: 50%;
 
     margin-right: $NavbarMargin;
     margin-top: 20px;
@@ -129,4 +134,8 @@ $NavbarMargin: 7%;
   @media screen and (max-width: 1350px) {
     top: 90%;
   }
+}
+
+.logo {
+  cursor: pointer;
 }
