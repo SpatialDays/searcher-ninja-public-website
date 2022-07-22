@@ -16,7 +16,7 @@ const JapText = ({ text, fontSize, top_to_bottom }) => {
         >
           {randomJapaneseText()}
         </div>
-        {text}
+        <h2>{text}</h2>
     </div>
   );
 };

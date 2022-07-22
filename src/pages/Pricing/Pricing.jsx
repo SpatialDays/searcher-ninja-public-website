@@ -52,13 +52,15 @@ const Pricing = () => {
           <div className="prices">
             {pricePlans.map((plan, index) => {
               return (
-                <div key={index} className="price" onClick={
-                  () => {
+                <div
+                  key={index}
+                  className="price"
+                  onClick={() => {
                     window.open("http://pricing.searcher.ninja", "_blank");
-                  }
-                }>
+                  }}
+                >
                   <div className="price__avatar">
-                    <img src={`/ninjas/${plan.avatar}.png`} alt="" />
+                    <img src={`/ninjas/${plan.avatar}.png`} alt={plan.avatar} />
                   </div>
                   <div className="price__title ">{plan.title}</div>
                   <div className="price__description clear-font">
@@ -78,7 +80,14 @@ const Pricing = () => {
             })}
           </div>
           <div className="prices__footer">
-            <p className="clear-font">If your needs exceed those of our Mega plan, contact us for <span className="cool-font">Enterprise</span> pricing<br/> ( at rates of less than $ 0.005 per request )</p>
+            <p className="clear-font">
+              If your needs exceed those of our Mega plan, contact us for{" "}
+              <a href="mailto:support@spatialdays.com" className="cool-font">
+                Enterprise
+              </a>{" "}
+              pricing
+              <br /> ( at rates of less than $ 0.005 per request )
+            </p>
           </div>
         </div>
       </div>

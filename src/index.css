@@ -44,17 +44,3 @@ body {
   overflow-x: hidden;
 }
 
-.clear-font {
-  font-family: Renogare-Regular;
-  line-height: 1.5em;
-  font-size: 0.85em;
-}
-
-.cool-font {
-  /* Text color gradient from red to orange */
-  background: -webkit-linear-gradient(red, rgb(255, 106, 0));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-  /* Text color gradient from red to orange left to right */
-}

@@ -17,16 +17,19 @@ const Footer = () => {
       }}
     >
       <div className="footer__logo">
-        <img src="./logos/logowhite.png" />
+        <img src="./logos/logowhite.png" alt="logo" />
       </div>
       <div className="footer__docs clear-font">
         <a href="./docs/Terms_of_Use.pdf">
           <span className="footer__doc">Terms of Use </span>
         </a>
 
-
         <a href="./docs/Privacy_Policy.pdf">
           <span className="footer__doc">Privacy Policy</span>
+        </a>
+
+        <a target="_blank" href="http://service.searcher.ninja">
+          <span className="footer__doc">Visit our API</span>
         </a>
       </div>
       <div className="footer__creds">
@@ -34,7 +37,7 @@ const Footer = () => {
           © {currentYear} Powered by Spatial Days
         </a>
         <br />
-        <a href="mailto:arianne.oates@gmail.com">Artwork by Arianne Oates</a>
+        Artwork by Arianne Oates
       </div>
     </div>
   );
