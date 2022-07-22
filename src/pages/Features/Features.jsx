@@ -47,7 +47,10 @@ const Features = () => {
           return (
             <div key={index} className="feature">
               <div className="feature__icon">
-                <img src={`/icons/${feature.icon}.png`} alt={feature.title} />
+                <img
+                  src={`/icons/${feature.icon}.png`}
+                  alt={feature.title}
+                />
               </div>
               <div className="feature__title">{feature.title}</div>
               <div className="feature__description clear-font">

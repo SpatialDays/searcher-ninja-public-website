@@ -1,12 +1,13 @@
-import './Ninja.scss';
+import "./Ninja.scss";
 
-const Ninja = ({type, size}) => {
+const Ninja = ({ type, size }) => {
   return (
     <div className="ninja">
-      <img src= {`./ninjas/ninja_${type}.png`} 
+      <img
+        alt={`${type} ninja`}
+        src={`./ninjas/ninja_${type}.png`}
         className={`ninja__${size}`}
       />
-      
     </div>
   );
 };

@@ -1,6 +1,12 @@
-.container-paper {
+h1 {
+  // dont break lines
+  white-space: pre-wrap;
+  display: contents;
+  font-size:1em;
+  font-weight: 100;
+}
 
-  // height:600px;
+.container-paper {
   width: 100%;
   height: 35em;
   display: flex;
@@ -18,6 +24,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 650px) {
+    width: 80%;
+  }
 }
 
 .paper-background {
@@ -29,8 +39,8 @@
 
 .ninja-landing {
   display: flex;
-    align-items: flex-end;
-    flex-direction: row;
-    height: 100%;
-    z-index: 9999;
+  align-items: flex-end;
+  flex-direction: row;
+  height: 100%;
+  z-index: 9999;
 }
