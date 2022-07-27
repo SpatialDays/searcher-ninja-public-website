@@ -1,5 +1,7 @@
 # Searcher Ninja
 
+https://searcher.ninja/
+
 Searcher Ninja is a brand name created by Spatial Days Ltd, a mapping, consulting and software development company, registered in England and Wales with Company Number 07376182.
 
 We needed a search engine scraper for one of our projects that could simultaneously scrape multiple different search engines, collate the results and return them in simple JSON format with fast response times.
