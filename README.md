@@ -1,7 +1,13 @@
 # Searcher Ninja
 
+
+## Website 
 https://searcher.ninja/
 
+## RapidAPI link
+https://rapidapi.com/spatialdays-spatialdays-default/api/searcher-ninja1/
+
+## Who we are
 Searcher Ninja is a brand name created by Spatial Days Ltd, a mapping, consulting and software development company, registered in England and Wales with Company Number 07376182.
 
 We needed a search engine scraper for one of our projects that could simultaneously scrape multiple different search engines, collate the results and return them in simple JSON format with fast response times.
@@ -15,18 +21,18 @@ Our design philosophy was:
 
 For Searcher Ninja API support, please contact support@rapidapi.com first, and failing that, contact us at support@spatialdays.com
 
-## Website
+## Showcase
 
-## Landing
+### Landing
 
 <img src="docs/landing.png" width="1000px"></img>
 <br/>
 <br/>
 
-## Pricing
+### Pricing
 <img src="docs/pricing.png" width="1000px"/>
 <br/>
 <br/>
 
-## About
+### About
 <img src="docs/footer.png" width="1000px"/>
